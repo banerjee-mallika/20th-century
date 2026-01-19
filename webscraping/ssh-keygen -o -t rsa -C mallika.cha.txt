@@ -1,0 +1,51 @@
+ssh-keygen -o -t rsa -C "mallika.chatterjee08l@gmail.com"
+
+
+C:\Users\Mallika\workfolder/key_mallika
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCxgPpjS3IB6hOzsnMa9VRo2h5p2T6bIt+KT5+09GP7noo9id1Q02bwzUeG3bd9p9pC1ED3tkNAfl9MU9KL+Mmkd4fOkOjeTu4bylSSPn5C0sRfTM1LUKWnl5d+5+JQKmRWscC12kqf0CKK2vy6R/YMzY3xt83ewOxp5Iq6t+emojBkfMlXEI3NxJ5MiBmmhtTSUxAtUViG5L4T89Mr01y4Tr5quboIihVi+t8EvLfJ93gkv1X4KQvpRxNeCwB3RrEnDPd1PedZAT2yQdwPl1rmqsZjCUyKmgEm4iS1NibgEZItuEE04yTBisHmN4K32f3TXHKRFMbt2mz/Xl14whF/M2PklncgiRp0H1Ic4Fx9NpTroIgmvarMd/oQQkhOrXHhwJ5xJM3dvA14Eh68NIBBxdsh0NPvZJgV1Tdh8DXt+DVha0O+VfaepLC5A5fw749lLuiyb9aCgvSwfKa9cHx/V3tD6f7C0brn3f5RL4gPJFXujAA3H0UNzdqb5hwOpxE= mallika.chatterjee08@gmail.com
+
+
+git clone https://github.com/banerjee-mallika/20th-century.git
+
+cd 20th-century
+
+-- create a notebook mallika_ssh_test
+
+git add .
+
+git commit -m “created mallika_ssh_test notebook"
+
+
+conda create --name venv_alice
+conda activate venv_alice
+
+conda install ipykernel
+conda deactivate venv_alice
+
+conda create --name 20th_century
+conda activate 20th_century
+conda install ipykernel
+conda deactivate 20th_century
+
+
+
+data = pd.DataFrame({"Name": ['Mallika', 'Barun', 'Hrid','Gogo']
+                     "Race": ["Asian", "Asian", "Asian", "hispanic"],
+                     "Age": [34,43,4,4]})
+
+
+service  =  Service(executable_path=ChromeDriverManager().install())
+driver = webdriver.Chrome(executable_path=r'C:\Program Files\Google\Chrome\chromedriver-win64\chromedriver.exe')
+
+
+https://careerfoundry.com/en/course/data-visualizations-with-python/exercise/accessing-web-data-data-scraping#scraping-with-python
+
+
+
+
+
+
+
